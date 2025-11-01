@@ -21,7 +21,7 @@ Name: Mohammed Mawi
 4. Implemented camera functionality using MediaStore.ACTION_IMAGE_CAPTURE and `FileProvider`
 5. Consulted Android Studio Docs
 
-Model–View–Controller (MVC) Architecture Pattern:
+#### Model–View–Controller (MVC) Architecture Pattern:
 - Model: Manages image data and file URIs using internal storage and lifecycle state (onSaveInstanceState and Bundle).
 - View: XML layouts define the interface components
 - Controller: Implemented in `MainActivity`, which handles user interactions such as taking a photo, selecting an image from the gallery, and managing permission requests and intents.
